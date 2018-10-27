@@ -1,0 +1,139 @@
+@charset "utf-8"
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700')
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:500,700')
+@import url('https://fonts.googleapis.com/css?family=Patua+One')
+@import './partials/_variables.sass'
+@import './partials/_header.sass'
+@import './partials/_footer.sass'
+
+body
+  // background: url('/source/assets/img/fondomovil.jpg') top center no-repeat #a02345
+  // replace
+  background: url('/mundial/trivia/dist/fondomovil.jpg') top center no-repeat #a02345
+  margin: 0
+.background-body-winnner,
+.background-body-home
+  background: url('/mundial/trivia/dist/PSD-MOVIL-HOME-ANCHO-1.jpg') top center no-repeat #f5c61e
+.background-body-change,
+.background-body-test
+  background: url('/mundial/trivia/dist/FONDO-PREGUNTAS-1.jpg') top center no-repeat #f5c61e
+.background-body-result
+  background: url('/mundial/trivia/dist/PSD-MOVIL-HOME-ANCHO-1.jpg') top center no-repeat #f5c61e
+header
+nav
+section
+article
+aside
+figure
+footer
+	display: block
+	margin: 0
+	padding: 0
+
+*
+	box-sizing: border-box
+
+a
+  color: $black
+  font-family: 'Roboto', sans-serif
+  margin: 0
+  text-decoration: none
+  img
+	  border: none
+
+input:focus
+	outline: 0px
+
+p
+h1
+h2
+h3
+  color: $black
+  font-family: Arial, Helvetica, sans-serif
+  font-family: 'Roboto', sans-serif
+  font-size: 14px
+  margin: 0
+  padding: 0
+
+.content-trivia
+  position: relative
+  width: 100%
+  max-width: 1300px
+  margin: 0 auto
+.staticAdsFixed
+  position: fixed
+  top: 0
+  z-index: 500
+
+.btnYellow
+  font-family: 'Rajdhani', sans-serif
+  color: $black
+  background: $yellow
+  text-align: center
+  font-weight: bold
+  border-radius: 5px
+  &:hover
+  	background: $orange
+	  color: $white
+  &:active
+    background: $orange-dark
+.blockingOverflow
+  position: relative
+  // height: 100%
+  overflow: hidden
+.btn-logout
+  background: $yellow
+  border-radius: 3px
+  font-family: 'Rajdhani', sans-serif
+  font-weight: bold
+  padding: 1px 10px
+  margin-left: 15px
+  margin-right: 0
+  &:hover
+  	background: $orange
+	  color: $white
+@media screen and (min-width: 768px)
+  body
+    // background: url('/source/assets/img/FONDOHOMECORREGDO.jpg') top center no-repeat #a02345
+    // replace
+    background: url('/mundial/trivia/dist/FONDOHOMECORREGDO.jpg') top center no-repeat #a02345
+  .background-body-winnner,
+  .background-body-home
+    background: url('/mundial/trivia/dist/HOME-FONDO.jpg') top center no-repeat #f5c61e
+  .background-body-home
+    background-size: contain;
+  .background-body-winnner
+    background-size: cover;
+  .background-body-change,
+  .background-body-test
+    background: url('/mundial/trivia/dist/fondo-juego.png') top center no-repeat #f5c61e
+    background-size: 300%
+  .background-body-result
+    background: url('/mundial/trivia/dist/FINAL-DEL-JUEGO-FONDO.jpg') top center no-repeat #f5c61e
+    background-size: 100%
+@media screen and (min-width: 820px)
+  .background-body-change,
+  .background-body-test
+    background-size: 282%
+@media screen and (min-width: 940px)
+  .background-body-change,
+  .background-body-test
+    background-size: 250%
+@media screen and (min-width: 1024px)
+  .background-body-change,
+  .background-body-test
+    background-size: 220%
+@media screen and (min-width: 1120px)
+  .background-body-change,
+  .background-body-test
+    background-size: 210%
+@media screen and (min-width: 1300px)
+  .background-body-change,
+  .background-body-test
+    background-size: 180%
+  body
+    background-size: 100%
+  .block-header-zocalo
+    max-width: 1320px
+    margin: 0 auto
+    position: relative

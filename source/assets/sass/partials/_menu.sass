@@ -1,0 +1,96 @@
+.container-menu
+  width: 100%
+  max-width: 980px
+  height: 100%
+  margin: auto
+  .text-soon
+    display: block
+    font-family: Rajdhani, sans-serif
+    padding: 10px 0 5px 0
+  .container-btn-menu
+    width: 310px
+    // position: absolute
+    margin-top: 20px
+    margin-left: 7px
+    p
+      margin: 0
+      .btn-menu
+        display: block
+        width: 40px
+        height: 40px
+        line-height: 40px
+        text-align: center
+        background: $yellow
+        border-radius: 5px
+        i
+          font-size: 18px
+    .menu-hide
+      background: $white
+      position: absolute
+      z-index: 999
+      top: 35px
+      .user-menu
+        display: flex
+        align-items: center
+        padding: 20px 20px 20px 20px
+        background: $yellow
+        img
+          width: 65px
+          height: auto
+        .data-user
+          margin-left: 12px
+          p
+            font-family: 'Rajdhani', sans-serif
+            color: $black
+            line-height: 16px
+          .name-user
+            font-size: 24px
+            font-weight: bold
+            margin-bottom: 8px !important
+      .logos-menu
+        display: flex
+        flex-direction: column
+        padding: 6px 20px 0px 20px
+        a
+          text-align: center
+          border-bottom: 1px solid $black
+        img
+          width: 140px
+          margin: auto
+      .container-social-media
+        width: 100%
+        padding-bottom: 22px
+        padding-left: 20px
+        padding-right: 20px
+        p
+          text-align: center
+          font-family: 'Rajdhani', sans-serif
+          padding: 27px 0 6px 0
+      .social-media
+        display: flex
+        display: -ms-flexbox
+        justify-content: center
+        -ms-flex-pack: center
+        a
+          display: block
+          color: $black
+          width: 36px
+          height: 36px
+          line-height: 36px
+          text-align: center
+          border-radius: 50%
+          border: 1px solid $red
+          margin: 0 4px
+@media screen and (min-width: 533px)
+  .container-menu
+    .container-btn-menu
+      margin-left: 20px
+@media screen and (min-width: 768px)
+  .container-menu
+    .container-btn-menu
+      margin-left: 30px
+      margin-top: 15px
+@media screen and (min-width: 1025px)
+  .container-menu
+    .container-btn-menu
+      margin-left: 7px
